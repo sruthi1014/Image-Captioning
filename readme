@@ -1,0 +1,16 @@
+Dataload, vocab builder are common files for without and with attention.
+
+We have separate train.py,and model.py for attention and without attention. 
+In case of attention, train.py has evaluate function included in it for testing purpose aswell. 
+
+
+---(without attention)
+Test.py gives bleu for the batch level 
+
+Sample.py prints predicted caption and shows the input image. (only one sample image can be predicted in a run given the image id. ) 
+
+------------
+
+
+Dataset: https://drive.google.com/open?id=1bieOvBoDwcCyczVE57e9DL5_2e2nVUS2 
+incase blackboard submission fails for data upload due to large size use this link to download the data. 
